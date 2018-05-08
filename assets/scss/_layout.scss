@@ -141,10 +141,6 @@ code {
   margin-bottom: 5px;
 }
 
-.print-download {
-  float: right;
-}
-
 .colophon {
   margin-top: 50px;
   color: #999;
@@ -165,11 +161,6 @@ code {
   }
   #resume {
     margin: 0 auto;
-  }
-  .print-download {
-    float: none;
-    display: block;
-    text-align: left;
   }
 }
 
@@ -213,26 +204,9 @@ code {
     margin-left: 0;
     text-align: center;
   }
-  .print-download {
-    float: none;
-    display: block;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .print-download {
-    float: none;
-    display: block;
-  }
 }
 
 @media print {
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13pt;
-    line-height: 1;
-  }
   #resume {
     margin: 0 auto;
     max-width: 800px;
@@ -243,35 +217,13 @@ code {
     -webkit-box-shadow: none;
     font-size: 12px;
   }
-  .print-download {
+  .colophon {
     display: none;
   }
-  em, i {
-    color: #666;
-  }
-  .sectionName, #avatarBlock {
+  .sectionName {
     width: 99px;
   }
   .sectionContent, #infoBlock {
     margin-left: 100px;
-  }
-  .avatarPhoto {
-    width: 80px;
-  }
-  .resume-title, .print-instruction {
-    display: none;
-  }
-}
-
-.svg-icon {
-  width: 16px;
-  height: 16px;
-  margin-bottom: -4px;
-  path, polygon, rect {
-    fill: #333;
-  }
-  circle {
-    stroke: #333;
-    stroke-width: 1;
   }
 }
