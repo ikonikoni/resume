@@ -3,7 +3,7 @@ title:              "Résumé of Heiswayi Nrird"
 description:        "Software Engineer at Keysight Technologies"
 
 # Site URL settings
-url:                https://heiswayi.nrird.com # main url
+url:                https://heiswayi.github.io # main url
 baseurl:            /resume # for gh-pages
 
 # Google Analytics ID
