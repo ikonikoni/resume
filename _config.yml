@@ -1,9 +1,12 @@
 # Basic site info
-title:              "Résumé of Heiswayi Nrird"
-description:        "Software Engineer at Keysight Technologies"
+title:              "Résumé of Weixuan XIAO"
+description:        "Student in the University of Technology of Compiegne"
+update_time:        "March 29, 2019"
+update_time_fr:     "29 mars, 2019"
+update_time_zh:     "03/29/2019"
 
 # Site URL settings
-url:                https://heiswayi.github.io # main url
+url:                https://inokinoki.github.io # main url
 baseurl:            /resume # for gh-pages
 
 # Google Analytics ID
@@ -14,8 +17,8 @@ source:             ./
 destination:        ./_site
 markdown:           kramdown
 highlighter:        rouge
-timezone:           Asia/Kuala_Lumpur
-exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md"]
+timezone:           Europe/Paris
+exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md", "serve.sh"]
 
 # Site configurations
 compress_html:
