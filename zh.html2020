@@ -1,0 +1,442 @@
+---
+layout: compress
+published: true
+title: "萧威轩的简历"
+---
+
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="width=device-width, user-scalable=no, minimal-ui" name="viewport">
+  <title>{{ site.title_zh }}</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <div id="resume">
+    <div id="avatarBlock">
+      <div class="sectionName">
+        <span>个人信息</span>
+      </div>
+    </div>
+    <div id="infoBlock">
+      <div class="largeFont" id="nameBlock">
+        <span class="name">萧威轩 (Inoki)</span>
+      </div>
+      <div id="basicsBlock">
+        <div class="contactBlock">
+          <div class="alias">
+            姓名: <strong>肖威轩</strong>
+          </div>
+          <span class="email">veyx.shaw<span style="display:none">-antispam-</span>@gmail.com</span> 
+          <span class="divider">|</span> 
+          <span class="phone">(+33) 06 15 21 62 19</span> 
+          <span class="divider">|</span> 
+          <span class="address">法国贡比涅</span>
+        </div>
+        <div id="profilesBlock">
+          <!-- Wait for linkedin link -->
+          <span class="url">领英: <a href="https://www.linkedin.com/in/weixuan-xiao-032725108/">https://www.linkedin.com/in/weixuan-xiao-032725108/</a></span>
+          <br/>
+          <span class="url">博客: <a href="https://blog.inoki.cc/">https://blog.inoki.cc/</a></span>
+        </div>
+        <div id="languagesBlock">
+          <span>语言: </span>
+          <span class="url"><a href="index.html">英语</a></span>
+          <span class="divider">|</span> 
+          <span class="url"><a href="fr.html">法语</a></span>
+          <span class="divider">|</span> 
+          <span class="url"><a href="zh.html">中文</a></span>
+          <span class="divider">|</span> 
+          <span class="url">日语</span>
+        </div>
+      </div>
+    </div>
+    <!-- /#infoBlock -->
+    <div class="sectionLine"></div>
+    <div id="workBlock">
+      <div class="sectionName">
+        <span>工作经历</span>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">助理研究员</span> <span class="date">09/2018 至今</span>
+          <div class="company">
+            贡比涅技术大学 法国贡比涅<br>
+            <a href="https://www.utc.fr/">https://www.utc.fr/</a>
+          </div>
+        </div>
+        <p>作为丁冬博士的助手，我正在研究非连续形变分析及其在 3D 中的算法实现。<br/>
+          已经完成的项目有：非连续形变分析在 2D 情况下的 Fortran 模拟程序移植。</p>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">开源项目贡献者</span> <span class="date">07/2018 - 08/2018</span>
+          <div class="company">
+            Swoole 项目 <a href="https://github.com/swoole/swoole-src/">https://github.com/swoole/swoole-src/</a><br>
+            <a href="https://www.swoole.com/">https://www.swoole.com/</a>
+          </div>
+        </div>
+        <p>Swoole 是一个基于携程的 PHP 异步网络通信引擎（类似于 Golang）。<br/>
+          在项目中，我贡献了 WebSocket 服务器主动关闭连接、并提供状态码和关闭原因的实现。
+          我也在 WebSocket 服务器的 onMessage 方法中添加了对客户端发来的关闭帧的监听和处理。
+        </p>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">软件工程师</span> <span class="date">01/2018 - 07/2018 (6个月)</span>
+          <div class="company">
+            BnbLord 法国巴黎<br>
+            <a href="https://www.bnblord.com/">https://www.bnblord.com/</a>
+          </div>
+        </div>
+        <p>BnbLord 是一个专营于房屋在 Airbnb、Booking等网站上委托和管理的创业公司。</p>
+        <ul class="highlights">
+          <li>使用 ExtJS（前端）、Django 和 Django Rest Framework（后端）、Twilio API 为内部团队构建了一个在线呼叫中心。</li>
+          <li>创建了一个 Django 的 Model 字段，提供了多文件储存的可能性。</li>
+          <li>使用 requests、Selenium 和 Beautiful Soup 构建了一个爬虫，用来获取 bookingsync.com 上的数据。</li>
+          <li>使用 React 和 webpack 构建并维护一个供客户使用的独立应用程序，在实习的最后，我将其重构并使用 React Native 构建了 iOS 和 Android 的原生应用程序。</li>
+        </ul>
+        <p>产品：呼叫中心，<a href="#djangomultiplefilefield">django-multiplefilefield</a>，<a href="https://bnbstaff.net/guestspace/app/">Bnbstaff 顾客网页版应用</a>，Bnbstaff 顾客移动版应用 (iOS, Android)</p>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">软件工程师</span> <span class="date">01/2015 - 08/2015 (7个月)</span>
+          <div class="company">
+            赛鹰科技 中国上海<br>
+            <a href="http://dianmingle.me/">http://dianmingle.me/</a>
+          </div>
+        </div>
+        <p>赛鹰科技是一个提供校园内签到解决方案的创业公司。在团队中，我负责在上海大学中使用 QRCode 实现签到的数字系统。</p>
+        <ul class="highlights">
+          <li>使用 Apache2，MySQL 和 PHP 构建 dianmingle.me 网站。</li>
+          <li>使用 PHP 设计并构建 JSON 格式应用程序接口。</li>
+          <li>为 QRCode 签到系统构建 Android 应用程序。</li>
+        </ul>
+        <p>产品：dianmingle.me（已弃用）， <a href="https://play.google.com/store/apps/details?id=cc.inoki.dianmingleme">点名了么 Android 应用程序</a></p>
+      </div>
+    </div>
+    <div class="sectionLine"></div>
+    <div id="workBlock">
+      <div class="sectionName">
+        <span>个人项目</span>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader" id="compiegnebus">
+          <span class="title">贡比涅巴士</span> <span class="date">07/2018 至今</span>
+        </div>
+        <p>作为后台开发者：</p>
+        <ul class="highlights">
+          <li>从 Oise Mobilite 项目提取时间表。</li>
+          <li>构建 SQL 数据表并优化查询性能。</li>
+          <li>使用 PHP、Nginx 开发后端 JSON 应用程序接口。</li>
+          <li>使用 redis 缓存数据以提高性能和防止重复查询。</li>
+        </ul>
+        <p>作为移动端开发者：</p>
+        <ul class="highlights">
+          <li>使用 C# 和 XAML 设计并开发贡比涅巴士 UWP 应用程序。</li>
+          <li>使用微信小程序框架（一个类似与 Vue 的 MVVM 框架）设计并开发贡比涅巴士微信小程序。</li>
+        </ul>
+        <p>产品：<a href="https://www.microsoft.com/zh-tw/p/compiegne-bus/9nv4f4drnstk">贡比涅巴士 UWP 应用程序</a>，微信小程序，<a href="https://fr.inoki.cc/bus/">JSON API</a></p>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader" id="woxfrenchdict">
+          <span class="title">Wox 法语词典插件</span> 
+          <span class="date"><a href="http://www.wox.one/">http://www.wox.one/</a> 08/2018</span>
+        </div>
+        <p>Wox 是一个 Windows 上的高效启动器（就像 Mac OS X 上的 Alfred 一样）。</p>
+        <ul class="highlights">
+          <li>分析 https://www.frdic.com 的页面，提取可用 API。</li>
+          <li>使用 requests 和 beautifulsoup 请求和生成 Wox 可读的数据格式。</li>
+        </ul>
+        <p>产品：<a href="http://www.wox.one/plugin/210">法语词典插件</a>，源代码发布在 <a href="https://github.com/inokinoki/Wox.Plugin.FrenchDictionary">GitHub</a> 上</p>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">Mac OS X 移植版 Neko（猫）</span> 
+          <span class="date"><a href="https://github.com/inokinoki/neko-mac/">https://github.com/inokinoki/neko-mac/</a> 05/2018</span>
+        </div>
+        <p>
+          Mac OS X 版 Neko 是一个 Linux 系统中 Neko 程序的移植，它在屏幕上显示一只追逐鼠标箭头的猫。 
+          我创建并修改了一个 Mac OS X 版 Neko 的分支。<br/>
+          在我的版本中，Neko 猫会追逐并停留在鼠标箭头的对称位置，以避免遮挡屏幕内容，我也提供了对多个屏幕的支持。
+        </p>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">随享乐乎，上海大学乐乎论坛 Android 客户端</span> 
+          <span class="date"><a href="https://github.com/inokinoki/SHU-Lehu/">https://github.com/inokinoki/SHU-Lehu/</a> 05/2015</span>
+        </div>
+        <p>
+          随享乐乎是一个上海大学乐乎论坛 Android 客户端。<br/>
+          功能：查看论坛中的帖子，发表帖子评论，保存喜爱的帖子，查询上海大学跑步记录，查询上海大学校园卡消费记录。
+        </p>
+        <ul class="highlights">
+          <li>分析乐乎论坛页面、实现动态解析。</li>
+          <li>使用 Material Design 设计风格构建 Android 应用程序。</li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Personal Project -->
+    <div class="sectionLine"></div>
+    <div id="workBlock">
+      <div class="sectionName">
+        <span>课程项目</span>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">SY32（图像处理与图像合成）课程项目：人脸识别</span> <span class="date">02/2019 至今</span>
+        </div>
+        <ul class="highlights">
+          <li>分析和处理人物照片，生成训练数据。</li>
+          <li>使用支持向量机、Adaboost、决策树、随机森林等算法训练并优化人脸识别分类模型。</li>
+          <li>使用交叉验证方法优化准确度。</li>
+          <li>使用 Haar Casacade 构建实时人脸识别程序。</li>
+        </ul>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">SY15（高级自动化）课程项目：无人机自动控制</span> <span class="date">02/2019 至今</span>
+        </div>
+        <ul class="highlights">
+          <li>使用线性离散控制系统模型对 Parrot Mambo 无人机建模、分析。</li>
+          <li>为 Parrot Mambo 机器人开发和优化控制律。</li>
+          <li>在 Matlab 中为使用蓝牙连接的无人机实现一个闭环控制系统。</li>
+        </ul>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">MI11（嵌入式与实时系统）课程项目：嵌入式系统开发</span> <span class="date">02/2019 至今</span>
+        </div>
+        <ul class="highlights">
+          <li>为 APF9328 在 Bare Metal 模式下开发固件。</li>
+          <li>为 APF9328 自定义和编译 Linux 内核。</li>
+          <li>基于 Linux 内核实现进程调度功能。</li>
+        </ul>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">RV01（虚拟现实）课程项目：音乐之谜</span> <span class="date">11/2018 - 01/2019</span>
+        </div>
+        <ul class="highlights">
+          <li>在 Unity 中使用 C# 实现音符合成器。</li>
+          <li>使用连续的 12 个音符构建一个游戏。</li>
+          <li>为 HTC Vive 适配游戏操作。</li>
+        </ul>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">IA01（人工智能）课程项目：编程语言识别器</span> <span class="date">11/2018 - 01/2019</span>
+        </div>
+        <ul class="highlights">
+          <li>使用 Common Lisp 实现首词、末词、关键词解析器。</li>
+          <li>为专家系统构建深度优先推理引擎和广度优先推理引擎。</li>
+          <li>根据论文 <a href="https://arxiv.org/abs/1106.4064">https://arxiv.org/abs/1106.4064</a> 实现一个专家系统，完成编程语言识别的功能。</li>
+        </ul>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">MI12（嵌入式系统）课程项目：基于 iBeacon 的室内定位</span> <span class="date">09/2018 - 01/2019</span>
+        </div>
+        <ul class="highlights">
+          <li>实现一个室内 iBeacon 信号源寻找的 Android 应用程序。</li>
+        </ul>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">SY27（智能机器）课程项目：自动驾驶汽车</span> <span class="date">09/2018 - 01/2019</span>
+        </div>
+        <ul class="highlights">
+          <li>实现 Renault ZEO 的径向和纵向控制律。</li>
+          <li>在应用层设计和实现一个车际通信协议。</li>
+          <li>实现图匹配算法。</li>
+          <li>使用 ROS 作为中间件解耦，实现生产者/消费者异步通信模式。</li>
+        </ul>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">操作系统课程项目：虚拟网络终端</span> <span class="date">01/2017 - 02/2017</span>
+        </div>
+        <ul class="highlights">
+          <li>在 C/S 模式下，使用 Socket 为一个虚拟网络实现一个类 SSH 的 Shell。</li>
+          <li>使用 pthread 库刷新和显示其他用户发送的消息。</li>
+          <li>使用 readline 库读取整行输入信息并保存命令历史。</li>
+        </ul>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">面向对象程序设计课程项目：四子棋</span> <span class="date">12/2016 - 01/2017</span>
+        </div>
+        <ul class="highlights">
+          <li>在 Windows 控制抬下实现四子棋游戏。</li>
+          <li>使用 Windows 控制台 API 绘制和重绘图形。</li>
+        </ul>
+    </div>
+    <div class="sectionLine"></div>
+    <div id="certifications">
+      <div class="sectionName">
+        <span>认证</span>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">Test of English for International Communication (TOEIC), 11/2018</span>
+          <div class="author">
+            <span>分数: 880 (欧标B2) </span>
+            <a href="https://www.etsglobal.org/">https://www.etsglobal.org/</a>
+          </div>
+        </div>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">Test of Knowledge of French (TCF), 12/2016</span>
+          <div class="author">
+            <span>分数: 399 (欧标B1，接近B2) </span>
+            <a href="https://www.ciep.fr/tcf-tout-public/">https://www.ciep.fr/tcf-tout-public/</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#certifications -->
+    <div class="sectionLine"></div>
+    <div id="education">
+      <div class="sectionName">
+        <span>教育经历</span>
+      </div>
+      <div class="sectionContent">
+        <div class="educationBlock">
+          <span class="title">贡比涅技术大学 法国贡比涅</span>
+          <span class="date">07/2017 至今</span>
+          <div class="qualification">
+            计算机科学与工程系 工程师学位 GPA: 4.0/5.0
+          </div>
+          <div>
+              核心课程: 
+              IA01 (人工智能) &bull; 
+              MI11 (嵌入式和实时系统) &bull;
+              MI12 (嵌入式系统工程) &bull; 
+              NF16 (算法和数据结构) &bull; 
+              RV01 (虚拟现实) &bull; 
+              SR05 (分布式系统和算法) &bull; 
+              SY08 (离散系统建模) &bull; 
+              SY15 (高级自动化) &bull; 
+              SY27 (智能机器) &bull; 
+              SY31 (智能系统与传感器) &bull; 
+              SY32 (图像分析与图像合成)
+          </div>
+        </div>
+        <br/>
+        <div class="educationBlock">
+          <span class="title">上海大学</span>
+          <span class="date">09/2014 - 07/2017</span>
+          <div class="qualification">
+            计算机科学与工程系 本科学位 GPA: 3.3/4.0
+          </div>
+          <div>
+            核心课程: 
+            面向对象程序设计 &bull; 
+            数据结构和算法 &bull; 
+            C 语言程序设计 &bull;
+            计算机网络 &bull;
+            操作系统 &bull;
+            数字电路 &bull;
+            计算机控制 &bull;
+            信号与系统 &bull;
+            通信原理 &bull;
+            线性代数 &bull;
+            概率论与数理统计
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="sectionLine"></div>
+    <div id="awards">
+      <div class="sectionName">
+        <span>奖项</span>
+      </div>
+      <div class="sectionContent">
+        <div class="blockHeader">
+          <span class="title">上海大学一等奖学金</span> 
+          <div class="location">
+              <span class="date">07/2017 中国上海</span>
+          </div>
+        </div>
+
+        <br/>
+
+        <div class="blockHeader">
+          <span class="title">上海大学二等奖学金</span> 
+          <div class="location">
+              <span class="date">07/2016 中国上海</span>
+          </div>
+        </div>
+
+        <br/>
+
+        <div class="blockHeader">
+            <span class="title">上海大学第六届中欧杯工程能力大赛</span> 
+          <div class="location">
+            <span class="date">05/2016 中国上海</span>
+          </div>
+          <ul class="highlights">
+            <li>通过上海大学乐乎论坛 Android 客户端《随享乐乎》获得计算机组 <strong>一等奖</strong>。
+            </li>
+          </ul>
+        </div>
+
+        <br/>
+
+        <div class="blockHeader">
+          <span class="title">上海大学二等奖学金</span> 
+          <div class="location">
+              <span class="date">07/2015 中国上海</span>
+          </div>
+        </div>
+
+        <br/>
+
+        <div class="blockHeader">
+          <span class="title">上海大学第三届计算机应用能力大赛</span> 
+          <div class="location">
+            <span class="date">06/2015 中国上海</span>
+          </div>
+          <ul class="highlights">
+            <li>通过上海大学乐乎论坛 Android 客户端《随享乐乎》获得计算机组 <strong>二等奖</strong>。
+            </li>
+          </ul>
+        </div>
+
+        <br/>
+
+        <div class="blockHeader">
+          <span class="title">上海大学第五届中欧杯机器人大赛</span> 
+          <div class="location">
+            <span class="date">01/2015 上海大学</span>
+          </div>
+          <ul class="highlights">
+            <li>在巡线机器人组获得 <strong>二等奖</strong>。
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- /#awards -->
+    <div class="sectionLine"></div>
+    <div id="interests">
+      <div class="sectionName">
+        <span>兴趣爱好</span>
+      </div>
+      <div class="sectionContent">
+        音乐 &bull; 旅游 &bull; 电动游戏 &bull; 漫画 &bull; 动画
+      </div>
+    </div>
+    <!-- /#interests -->
+    <div class="colophon">
+      <div class="colophon-mark"></div><strong>最近更新:</strong> {{site.update_time_zh}}<br>
+      <span class="print-instruction"><strong>注意:</strong> 该模板是打印友好的，且对 PDF 格式进行过优化。PDF 文件可以在 Google Chrome 浏览器中通过 打印为PDF 生成。</span>
+    </div>
+  </div>
+</body>
+
+</html>
